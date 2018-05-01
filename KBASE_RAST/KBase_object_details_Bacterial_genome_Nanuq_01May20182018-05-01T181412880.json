@@ -1,0 +1,131 @@
+{
+  "metadata" : [
+    [
+      4,
+      "Bacterial_genome_Nanuq_01May2018",
+      "KBaseGenomes.Genome-8.2",
+      "2018-05-01T16:25:33+0000",
+      1,
+      "mnguyen",
+      31280,
+      "mnguyen:narrative_1525189358683",
+      "106ee49bbd21e3b5b11f6c7cf551c913",
+      12495269,
+      {
+        "Domain" : "B",
+        "GC content" : "0.465",
+        "Genetic code" : "11",
+        "MD5" : "d0f26932a233144c60af8709cf843b1d",
+        "Name" : "Bacillus velezensis NJN-6",
+        "Number contigs" : "1",
+        "Number features" : "4712",
+        "Source" : "KBase",
+        "Source ID" : "Bacterial_genome_Nanuq_01May2018"
+      }
+    ]
+  ],
+  "provenance" : [
+    {
+      "copy_source_inaccessible" : null,
+      "created" : "2018-05-01T16:25:33+0000",
+      "creator" : "mnguyen",
+      "extracted_ids" : null,
+      "info" : [
+        4,
+        "Bacterial_genome_Nanuq_01May2018",
+        "KBaseGenomes.Genome-8.2",
+        "2018-05-01T16:25:33+0000",
+        1,
+        "mnguyen",
+        31280,
+        "mnguyen:narrative_1525189358683",
+        "106ee49bbd21e3b5b11f6c7cf551c913",
+        12495269,
+        {
+          "Domain" : "B",
+          "GC content" : "0.465",
+          "Genetic code" : "11",
+          "MD5" : "d0f26932a233144c60af8709cf843b1d",
+          "Name" : "Bacillus velezensis NJN-6",
+          "Number contigs" : "1",
+          "Number features" : "4712",
+          "Source" : "KBase",
+          "Source ID" : "Bacterial_genome_Nanuq_01May2018"
+        }
+      ],
+      "provenance" : [
+        {
+          "custom" : { },
+          "description" : "KBase SDK method run via the KBase Execution Engine",
+          "epoch" : 1525191718000,
+          "external_data" : [ ],
+          "input_ws_objects" : [
+            "31280/2/1"
+          ],
+          "method" : "annotate_genome",
+          "method_params" : [
+            {
+              "annotate_proteins_kmer_v2" : 1,
+              "annotate_proteins_similarity" : 1,
+              "call_features_CDS_glimmer3" : 1,
+              "call_features_CDS_prodigal" : 1,
+              "call_features_crispr" : 1,
+              "call_features_insertion_sequences" : 0,
+              "call_features_prophage_phispy" : 0,
+              "call_features_rRNA_SEED" : 1,
+              "call_features_repeat_region_SEED" : 1,
+              "call_features_strep_pneumo_repeat" : 1,
+              "call_features_strep_suis_repeat" : 1,
+              "call_features_tRNA_trnascan" : 1,
+              "call_pyrrolysoproteins" : 1,
+              "call_selenoproteins" : 1,
+              "domain" : "B",
+              "genetic_code" : "11",
+              "input_contigset" : "31280/2/1",
+              "kmer_v1_parameters" : 1,
+              "output_genome" : "Bacterial_genome_Nanuq_01May2018",
+              "resolve_overlapping_features" : 1,
+              "scientific_name" : "Bacillus velezensis NJN-6",
+              "workspace" : "mnguyen:narrative_1525189358683"
+            }
+          ],
+          "resolved_ws_objects" : [
+            "31280/2/1"
+          ],
+          "service" : "RAST_SDK",
+          "service_ver" : "0.0.12",
+          "subactions" : [
+            {
+              "code_url" : "https://github.com/kbaseapps/RAST_SDK",
+              "commit" : "02fd255adb183001f9010e0fc25f318a3f70fe88",
+              "name" : "RAST_SDK",
+              "ver" : "0.0.12"
+            },
+            {
+              "code_url" : "https://github.com/kbaseapps/AssemblyUtil",
+              "commit" : "546a5e2b51e69b02b27d211773e4ac45aaf136ec",
+              "name" : "AssemblyUtil",
+              "ver" : "1.0.7-release"
+            },
+            {
+              "code_url" : "https://github.com/kbaseapps/DataFileUtil",
+              "commit" : "c4733f9c81bcc8228c63ceeb2c0540df9e61153e",
+              "name" : "DataFileUtil",
+              "ver" : "0.0.21-release"
+            },
+            {
+              "code_url" : "https://github.com/kbaseapps/GenomeFileUtil",
+              "commit" : "5562b8b6faad1c376776e8fd12cbc4682977ca6a",
+              "name" : "GenomeFileUtil",
+              "ver" : "0.7.4-release"
+            }
+          ],
+          "time" : "2018-05-01T16:21:58+0000"
+        }
+      ],
+      "refs" : [
+        "31280/2/1"
+      ]
+    }
+  ]
+}
